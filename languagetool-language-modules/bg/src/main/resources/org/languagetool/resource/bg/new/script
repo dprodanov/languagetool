@@ -1,0 +1,9 @@
+ 
+ cat  bg_BG1.txt  | sort -u > bg_BG.txt
+ 
+ java -cp languagetool-tools.jar:morfologik-tools.jar:morfologik-fsa.jar:morfologik-fsa-builders.jar:commons-cli.jar:jcommander.jar:hppc.jar org.languagetool.tools.SpellDictionaryBuilder bg_BG -i bg_BG.txt -info bg_BG.info -freq bg_wordlist_iv.xml file -o bg_BG.dict
+
+
+java -cp languagetool-tools.jar:morfologik-tools.jar:morfologik-fsa.jar:morfologik-fsa-builders.jar:commons-cli.jar:jcommander.jar:hppc.jar org.languagetool.tools.SpellDictionaryBuilder bg_BG -i bg_BG3.txt -info bg_BG.info -freq bg_wordlist_iv.xml file -o bg_BG.dict
+
+java -cp languagetool-tools.jar:morfologik-tools.jar:morfologik-fsa.jar:morfologik-fsa-builders.jar:morfologik-stemming.jar:morfologik-speller.jar:commons-cli.jar:jcommander.jar:hppc.jar  org.languagetool.tools.DictionaryExporter -i bg_BG.dict -info bg_BG.info -o bg_BG.dump

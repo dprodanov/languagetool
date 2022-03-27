@@ -30,7 +30,7 @@ INPUT_ENCODING=utf8
 OUTPUT_ENCODING=utf8
 TEMP_FILE=/tmp/lt-dictionary.dump
 FINAL_FILE=/tmp/lt-dictionary.new
-OUTPUT_FILE=/tmp/de_DE.dict
+OUTPUT_FILE=/tmp/bg_BG.dict
 
 CPATH=$REPO/com/carrotsearch/hppc/0.8.2/hppc-0.8.2.jar:$REPO/org/carrot2/morfologik-fsa-builders/2.1.7/morfologik-fsa-builders-2.1.7.jar:$REPO/org/carrot2/morfologik-stemming/2.1.7/morfologik-stemming-2.1.7.jar:$REPO/org/carrot2/morfologik-fsa/2.1.7/morfologik-fsa-2.1.7.jar:$REPO/org/carrot2/morfologik-tools/2.1.7/morfologik-tools-2.1.7.jar:$REPO/commons-cli/commons-cli/1.4/commons-cli-1.4.jar:languagetool-tools/target/languagetool-tools-${LT_VERSION}.jar
 LANG_CODE=$1
@@ -73,6 +73,6 @@ echo "Final size:"
 wc -l $FINAL_FILE
 
 java -cp $CPATH:languagetool-standalone/target/LanguageTool-$LT_VERSION/LanguageTool-$LT_VERSION/languagetool.jar:languagetool-standalone/target/LanguageTool-$LT_VERSION/LanguageTool-$LT_VERSION/libs/languagetool-tools.jar \
-  org.languagetool.tools.SpellDictionaryBuilder -i $FINAL_FILE -info $INFO_FILE -o $OUTPUT_FILE -freq $FREQ_FILE
+  org.languagetool.tools.SpellDictionaryBuilder -i $FINAL_FILE -info $INFO_FILE -o $OUTPUT_FILE 
 
 rm $TEMP_FILE

@@ -364,6 +364,7 @@
         <module>languagetool-language-modules/nl</module>
         <module>languagetool-language-modules/pt</module>
         <module>languagetool-language-modules/ru</module>
+   
         <module>languagetool-language-modules/ast</module>
         <module>languagetool-language-modules/be</module>
         <module>languagetool-language-modules/zh</module>
@@ -379,6 +380,7 @@
         <module>languagetool-language-modules/ro</module>
         <module>languagetool-language-modules/sk</module>
         <module>languagetool-language-modules/sl</module>
+        <module>languagetool-language-modules/bg</module>
         <!-- re-add when a maintainer is found: <module>languagetool-language-modules/sr</module>-->
         <module>languagetool-language-modules/es</module>
         <module>languagetool-language-modules/sv</module>
