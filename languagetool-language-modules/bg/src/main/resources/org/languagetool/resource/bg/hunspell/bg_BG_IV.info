@@ -1,0 +1,16 @@
+#
+# Dictionary properties
+#
+#
+# This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+#
+
+fsa.dict.separator=+
+fsa.dict.encoding=utf-8
+fsa.dict.encoder=SUFFIX
+fsa.dict.speller.locale=bg_BG
+fsa.dict.license=CC BY-SA 4.0
+fsa.dict.author=Dimiter Prodanov <dimiterpp@gmail.com>
+fsa.dict.created=2022-25-03
+fsa.dict.frequency-included=true
+

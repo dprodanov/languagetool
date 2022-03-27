@@ -19,8 +19,8 @@ then
   exit 1
 fi
 
-REPO="$HOME/.m2/repository"
-LT_VERSION=4.4-SNAPSHOT
+REPO="$HOME/GitHub/languagetool"
+LT_VERSION=5.7-SNAPSHOT
 TEMP_FILE=/tmp/lt-dictionary.dump
 WORD_COUNT=/tmp/wordcount
 FINAL_FILE=/tmp/lt-dictionary.new

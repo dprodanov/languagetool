@@ -116,6 +116,13 @@
             <artifactId>language-be</artifactId>
             <version>${revision}</version>
         </dependency>
+       
+       <dependency>
+            <groupId>org.languagetool</groupId>
+            <artifactId>language-bg</artifactId>
+            <version>${revision}</version>
+        </dependency> 
+       
         <dependency>
             <groupId>org.languagetool</groupId>
             <artifactId>language-zh</artifactId>
