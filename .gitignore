@@ -3,6 +3,7 @@
 *.iml
 *.bak
 *.jar
+*.txt
 .class
 .classpath
 .idea
