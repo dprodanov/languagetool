@@ -471,17 +471,19 @@ SFX	D2		ь	ьтъ	.
 SFX	D2		ь	ьове	.
 SFX	D2		ь	ьоветѣ	.
 					
-SFX	D3	Y	10		
+SFX	D3	Y	5		
 SFX	D3		ь	ь	.
 SFX	D3		ь	я	.
 SFX	D3		ь	ьтъ	.
 SFX	D3		ь	ища	.
 SFX	D3		ь	ищата	.
-SFX	D3		ъ	ъ	.
-SFX	D3		ъ	а	.
-SFX	D3		ъ	ътъ	.
-SFX	D3		ъ	ища	.
-SFX	D3		ъ	ищата	.
+
+SFX	DB	Y	5		
+SFX	DB		ъ	ъ	.
+SFX	DB		ъ	а	.
+SFX	DB		ъ	ътъ	.
+SFX	DB		ъ	ища	.
+SFX	DB		ъ	ищата	.
 					
 SFX	D4	Y	6		
 SFX	D4		търъ	търъ	.
@@ -546,12 +548,12 @@ SFX	D9		ъ	и	.
 SFX	D9		ъ	итѣ	.
 SFX	D9		ъ	е	.
 
-SFX	A7	Y     5
-SFX	A7		й	й	.
-SFX	A7		й	я	.
-SFX	A7		й	ятъ	.
-SFX	A7		й	ища	.
-SFX	A7		й	ищата	.
+SFX	DA	Y     5
+SFX	DA		й	й	.
+SFX	DA		й	я	.
+SFX	DA		й	ятъ	.
+SFX	DA		й	ища	.
+SFX	DA		й	ищата	.
 
 
 SFX	E0	Y	6		
@@ -580,13 +582,13 @@ SFX	E1		жъ	жо	.
 SFX	E2	Y	16		
 SFX	E2		день	день	.
 SFX	E2		день	деня	.
-SFX	E2		день	деньтъ	.
+SFX	E2		день	денѣтъ	.
 SFX	E2		день	дена	.
 SFX	E2		день	дни	.
 SFX	E2		день	днитѣ	.
 SFX	E2		огънь	огънь	.
 SFX	E2		огънь	огъня	.
-SFX	E2		огънь	огъньтъ	.
+SFX	E2		огънь	огънѣтъ	.
 SFX	E2		огънь	огньове	.
 SFX	E2		огънь	огньоветѣ	.
 SFX	E2		къть	къть	.
